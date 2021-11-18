@@ -27,7 +27,7 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>dolla</NavLogo>
+          <NavLogo to='/' onClick={toggleHome}>Muons Soft</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -35,26 +35,26 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to='about'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >About</NavLinks>
+              >Sobre nosotros</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='discover'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Discover</NavLinks>
+              >Instalaciones</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='services'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Services</NavLinks>
+              >Servicios</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='signup'
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Sign Up</NavLinks>
+              >Cerrar sesión</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/signin'>Ingresar</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

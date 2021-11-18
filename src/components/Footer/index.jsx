@@ -14,7 +14,7 @@ const Footer = () => {
         <FooterLinkContainer>
           <FooterLinkWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About us</FooterLinkTitle>
+              <FooterLinkTitle>Sobre nosotros</FooterLinkTitle>
                 <FooterLink to='/'>How it works</FooterLink>
                 <FooterLink to='/'>Testimonials</FooterLink>
                 <FooterLink to='/'>Carrers</FooterLink>
@@ -22,11 +22,10 @@ const Footer = () => {
                 <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                <FooterLink to='/'>Contact</FooterLink>
-                <FooterLink to='/'>Support</FooterLink>
-                <FooterLink to='/'>Destinations</FooterLink>
-                <FooterLink to='/'>Sponsorships</FooterLink>
+              <FooterLinkTitle>Contactenos</FooterLinkTitle>
+                <FooterLink to='/'>Contacto</FooterLink>
+                <FooterLink to='/'>Soporte</FooterLink>
+                
             </FooterLinkItems>
           </FooterLinkWrapper>
 
@@ -50,9 +49,9 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              dolla
+              Muons Soft
             </SocialLogo>
-            <WebsiteRights>dolla © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+            <WebsiteRights>Muons Softs © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' arial-label='Facebook'>
                 <FaFacebook />
